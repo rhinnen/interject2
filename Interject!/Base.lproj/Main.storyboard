@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="euM-Xl-YbO">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Interject!-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="InterjectView" customModule="Interject_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xiz-Fj-Rgz">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="3b5-21-xsC">
+                                        <rect key="frame" x="13" y="220" width="388" height="334"/>
+                                        <subviews>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="15" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U3O-oB-apY">
+                                                <rect key="frame" x="0.0" y="0.0" width="388" height="82"/>
+                                                <gestureRecognizers/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter-Semibold" family="American Typewriter" pointSize="71"/>
+                                                <color key="textColor" red="1" green="0.0" blue="0.061639922896241824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="iCg-HD-rvK" appends="YES" id="baS-pB-xOD"/>
+                                                    <outletCollection property="gestureRecognizers" destination="1rp-Z2-CW5" appends="YES" id="dUI-ES-l7h"/>
+                                                </connections>
+                                            </label>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="17" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qFT-fl-FCj">
+                                                <rect key="frame" x="81" y="97" width="226.5" height="100.5"/>
+                                                <gestureRecognizers/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter-Semibold" family="American Typewriter" pointSize="87"/>
+                                                <color key="textColor" red="1" green="0.0" blue="0.061639922896241824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="01B-dD-vdB" appends="YES" id="cyI-Ah-ul2"/>
+                                                    <outletCollection property="gestureRecognizers" destination="e3k-ZQ-xwW" appends="YES" id="BMT-sv-uW2"/>
+                                                </connections>
+                                            </label>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="19" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C9G-Qv-s0c">
+                                                <rect key="frame" x="57.5" y="212.5" width="273.5" height="121.5"/>
+                                                <gestureRecognizers/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter-Semibold" family="American Typewriter" pointSize="105"/>
+                                                <color key="textColor" red="1" green="0.0" blue="0.061639922896241824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="7m6-7y-mwR" appends="YES" id="mrg-d3-9Wo"/>
+                                                    <outletCollection property="gestureRecognizers" destination="6kc-bI-7Lf" appends="YES" id="pbb-Fn-vtY"/>
+                                                </connections>
+                                            </label>
+                                        </subviews>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstItem="U3O-oB-apY" firstAttribute="leading" secondItem="3b5-21-xsC" secondAttribute="leading" id="I0h-ty-ZDe"/>
+                                            <constraint firstAttribute="trailing" secondItem="U3O-oB-apY" secondAttribute="trailing" id="peA-al-k1R"/>
+                                        </constraints>
+                                    </stackView>
+                                    <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gtv-1P-Cxy">
+                                        <rect key="frame" x="0.0" y="730" width="414" height="44"/>
+                                        <items>
+                                            <barButtonItem systemItem="action" id="mab-5k-MLY">
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <connections>
+                                                    <action selector="share:" destination="BYZ-38-t0r" id="QKz-dp-Pva"/>
+                                                </connections>
+                                            </barButtonItem>
+                                            <barButtonItem style="plain" systemItem="flexibleSpace" id="WzU-aQ-ipY"/>
+                                            <barButtonItem title="SFW" id="Ys1-BX-qxo">
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <connections>
+                                                    <action selector="sfwAction:" destination="BYZ-38-t0r" id="AhA-TK-I35"/>
+                                                </connections>
+                                            </barButtonItem>
+                                        </items>
+                                        <color key="barTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </toolbar>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="gtv-1P-Cxy" secondAttribute="trailing" id="J9v-CW-v71"/>
+                                    <constraint firstAttribute="bottom" secondItem="gtv-1P-Cxy" secondAttribute="bottom" id="mKq-ii-kgd"/>
+                                    <constraint firstItem="gtv-1P-Cxy" firstAttribute="leading" secondItem="Xiz-Fj-Rgz" secondAttribute="leading" id="q12-ad-Z4u"/>
+                                    <constraint firstItem="3b5-21-xsC" firstAttribute="centerY" secondItem="Xiz-Fj-Rgz" secondAttribute="centerY" id="qiy-BN-odr"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="3b5-21-xsC" secondAttribute="trailing" constant="5" id="qzi-ho-eR3"/>
+                                    <constraint firstItem="3b5-21-xsC" firstAttribute="leading" secondItem="Xiz-Fj-Rgz" secondAttribute="leadingMargin" constant="5" id="sea-fM-Xa4"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="SyS-Bo-zXp" appends="YES" id="kMf-Gv-AEz"/>
+                                    <outletCollection property="gestureRecognizers" destination="PeN-J9-pA3" appends="YES" id="yw9-74-s0n"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Xiz-Fj-Rgz" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="D4w-by-agh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Xiz-Fj-Rgz" secondAttribute="bottom" id="Jjg-I5-yhf"/>
+                            <constraint firstItem="Xiz-Fj-Rgz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="brP-OP-0Tk"/>
+                            <constraint firstItem="Xiz-Fj-Rgz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="euP-Wq-XR3"/>
+                            <constraint firstItem="Xiz-Fj-Rgz" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="m7p-EA-jL6"/>
+                            <constraint firstItem="Xiz-Fj-Rgz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ryy-G5-3O1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Interject!" largeTitleDisplayMode="always" id="ohE-pk-rei"/>
+                    <connections>
+                        <outlet property="adjective1" destination="U3O-oB-apY" id="Lxb-kC-wg9"/>
+                        <outlet property="adjective2" destination="qFT-fl-FCj" id="QK5-gb-PQs"/>
+                        <outlet property="noun" destination="C9G-Qv-s0c" id="l4p-nj-xPQ"/>
+                        <outlet property="sfwButton" destination="Ys1-BX-qxo" id="wmW-1z-Hyz"/>
+                        <segue destination="P0E-nB-oTD" kind="show" identifier="MeaningView" id="KJH-yE-Yh8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="down" id="SyS-Bo-zXp" userLabel="Swipe Down">
+                    <connections>
+                        <action selector="swipeNewWords:" destination="BYZ-38-t0r" id="VfD-RD-Gs5"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="up" id="PeN-J9-pA3" userLabel="Swipe Up">
+                    <connections>
+                        <action selector="swipeUpOldWords:" destination="BYZ-38-t0r" id="5ZN-CF-IBA"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="iCg-HD-rvK" userLabel="Swipe Adjective1">
+                    <connections>
+                        <action selector="lockAdj1:" destination="BYZ-38-t0r" id="0lj-4m-pio"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="e3k-ZQ-xwW" userLabel="Swipe Adjective2">
+                    <connections>
+                        <action selector="lockAdj2:" destination="BYZ-38-t0r" id="nUX-Og-H3d"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer cancelsTouchesInView="NO" direction="right" id="7m6-7y-mwR" userLabel="Swipe Noun">
+                    <connections>
+                        <action selector="lockNoun:" destination="BYZ-38-t0r" id="Vow-6r-WOQ"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <tapGestureRecognizer id="1rp-Z2-CW5" userLabel="Tap Adjective1">
+                    <connections>
+                        <action selector="meaningAdj1:" destination="BYZ-38-t0r" id="8QU-Pl-bIg"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="01B-dD-vdB" userLabel="Tap Adjective2">
+                    <connections>
+                        <action selector="meaningAdj2:" destination="BYZ-38-t0r" id="BJ0-Vt-Eqk"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="6kc-bI-7Lf" userLabel="Tap Noun">
+                    <connections>
+                        <action selector="meaningNoun:" destination="BYZ-38-t0r" id="7GP-ar-qRl"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1956.521739130435" y="131.25"/>
+        </scene>
+        <!--Meaning View-->
+        <scene sceneID="Awy-jP-rjN">
+            <objects>
+                <viewController id="P0E-nB-oTD" customClass="MeaningView" customModule="Interject_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iK0-dW-ktq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="ce5-NN-zc1">
+                                <rect key="frame" x="20" y="278" width="374" height="152"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="0Uv-JS-YKv" userLabel="WordLabel">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="74"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Label">
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="60" name="AmericanTypewriter-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hfO-To-d3Q" userLabel="MeaningLabel">
+                                        <rect key="frame" x="0.0" y="94" width="374" height="58"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Label">
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="50" name="AmericanTypewriter-Semibold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="0Uv-JS-YKv" secondAttribute="trailing" id="5yD-gc-ZZi"/>
+                                    <constraint firstItem="0Uv-JS-YKv" firstAttribute="leading" secondItem="ce5-NN-zc1" secondAttribute="leading" id="cID-Fm-vGd"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="ce5-NN-zc1" firstAttribute="centerY" secondItem="iK0-dW-ktq" secondAttribute="centerY" constant="-50" id="Hno-uk-hB2"/>
+                            <constraint firstItem="ce5-NN-zc1" firstAttribute="leading" secondItem="z0b-wX-k3j" secondAttribute="leading" constant="20" id="Jow-IK-UdX"/>
+                            <constraint firstItem="z0b-wX-k3j" firstAttribute="trailing" secondItem="ce5-NN-zc1" secondAttribute="trailing" constant="20" id="kkU-ha-w9D"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="z0b-wX-k3j"/>
+                    </view>
+                    <connections>
+                        <outlet property="meaningLabel" destination="hfO-To-d3Q" id="rB1-mc-weM"/>
+                        <outlet property="wordLabel" destination="0Uv-JS-YKv" id="qeA-l8-Nr8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gx6-ru-iwQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2826" y="131"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="uuO-W4-th1">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="euM-Xl-YbO" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" translucent="NO" id="xHO-xt-gle">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="heN-Yc-HsO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3R1-Kp-Cry" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1046.376811594203" y="131.25"/>
+        </scene>
+    </scenes>
+</document>
